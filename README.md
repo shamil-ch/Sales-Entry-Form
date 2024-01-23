@@ -20,10 +20,10 @@ The project is a React-based sales entry form that allows users to input header 
 
 ## Deployment
 
-To deploy this project run
+To use this project run
 
 ```
-  npm run deploy
+  https://sales-shamil7.netlify.app/
 ```
 
 
@@ -32,7 +32,7 @@ To deploy this project run
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/shamil-ch/Sales-Entry-Form.git
 ```
 
 Go to the project directory
