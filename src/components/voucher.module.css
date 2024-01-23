@@ -1,0 +1,40 @@
+/* src/components/PrintableVoucher/printStyles.css */
+
+.printable {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .header div {
+    margin-bottom: 5px;
+  }
+  
+  .detail {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .cancel-print-button {
+    display: none; /* Hide the cancel button for printing */
+  }
+  
+  /* Add additional styles as needed for the printable voucher */
+  

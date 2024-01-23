@@ -1,0 +1,135 @@
+/* styles.css */
+
+/* Header Section Styles */
+.header-section {
+    margin-bottom: 20px;
+  }
+  
+  .header-section .form-field {
+    margin-bottom: 10px;
+  }
+  
+  /* Details Section Styles */
+  .details-section {
+    margin-bottom: 20px;
+  }
+  
+  .table-header {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 8px;
+    font-weight: bold;
+    gap: 120px
+  }
+
+  .total-amount {
+    border: 1px solid #ccc;
+    padding: 4px;
+    margin-left: 20px;
+  }
+
+  .remove-button {
+    margin-left: 70px;
+  }
+
+  .total-cost {
+    margin-left: 900px;
+  }
+
+  .table-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    gap: 8px;
+  }
+  
+  .table-row input,
+  .table-row button {
+    margin-right: 8px;
+  }
+  
+  /* Submit Button Styles */
+  .submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:disabled {
+    background-color: #ddd;
+    color: #555;
+    cursor: not-allowed;
+  }
+  
+  /* Error and Success Message Styles */
+  .error-message {
+    color: red;
+  }
+  
+  .success-message {
+    color: green;
+  }
+
+  .header-section {
+    margin-top: 20px;
+  }
+
+  .header-section label {
+    margin-left: 20px;
+  }
+
+  .details-section {
+    margin-top: 30px;
+  }
+
+  .refresh {
+    background-color: rgb(var(--primary-color));
+    border: 1px solid rgb(var(--primary-color));
+    color: rgb(var(--text-color));
+  }
+
+  .print {
+    background-color: rgb(var(--primary-color));
+    border: 1px solid rgb(var(--primary-color));
+    color: rgb(var(--text-color));
+  }
+
+  .submit {
+    background-color: rgb(var(--primary-color));
+    border: 1px solid rgb(var(--primary-color));
+    color: rgb(var(--text-color));
+  }
+
+  .Row {
+    background-color: rgba(var(--primary-color));
+    border: 1px solid rgba(var(--primary-color));
+    color: rgba(var(--text-color));
+  }
+
+  .Row:hover {
+    background-color: rgba(var(--primary-color), 0.35);
+    border: 1px solid rgba(var(--primary-color), 0.5);
+    color: rgba(var(--text-color), 0.9);
+  }
+
+  .btn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    padding: 12px 32px;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border-radius: 40px;
+  }
+
+  .btn:hover {
+    transition: all 0.3s ease;
+  }
+  
+  
